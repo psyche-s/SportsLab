@@ -19,10 +19,6 @@ on:
         type: choice
         options: [auto, free]
         default: auto
-  schedule:
-    - cron: '10 11,12,17,18 * * *'
-    # Friday October 9, 2026 at 4:00 PM America/Toronto (20:00 UTC), three hours before NHL 7 PM ET puck drop.
-    - cron: '0 20 9 10 *'
 
 permissions:
   contents: write
